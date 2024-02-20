@@ -30,7 +30,7 @@ img {
 	left: 0;
 	width: 100%;
 	box-shadow: 0 1px 0 rgba(22, 8, 43, 0.1);
-	background-image: url(/assets/breakpoint5-blur.jpg);
+	background-image: url(/assets/breakpoint5-blur.webp);
 	background-position: center;
 	background-size: cover;
 	height: 20vh;
@@ -225,7 +225,7 @@ img {
 		padding: 0 3rem 0 6rem
 	}
 	.header-container {
-		height: calc(3.5rem+.5rem)
+		height: calc(3.5rem+ .5rem)
 	}
 	.header-search {
 		width: 300px;
