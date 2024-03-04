@@ -30,7 +30,7 @@ img {
 	left: 0;
 	width: 100%;
 	box-shadow: 0 1px 0 rgba(22, 8, 43, 0.1);
-	background-image: url(/assets/breakpoint5-blur.webp);
+	background-image: url("../../assets/breakpoint5-blur.webp");
 	background-position: center;
 	background-size: cover;
 	height: 20vh;
