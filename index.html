@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <link rel="stylesheet" href="css/style.css"/>
-    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"/>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="preload" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"/>
+    <script type="module" async src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule async src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <link href="https://api.mapbox.com/mapbox-gl-js/v2.4.1/mapbox-gl.css" rel="stylesheet"/>
     <script src="https://api.mapbox.com/mapbox-gl-js/v2.4.1/mapbox-gl.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="preload"/>
     <title>Tethics Excellence Academy</title>
 </head>
 <body>
@@ -54,19 +54,19 @@
     <div class="main-box">
         <div class="box box-main">
             <div class="icon">
-                <img src="assets/awards/1.webp" width="150px" height="auto" alt="">
+                <img src="assets/resize_webp/1.webp" alt="">
             </div>
             <p>Outstanding CBSE School Award</p>
         </div>
         <div class="box box-main">
             <div class="icon">
-                <img src="assets/awards/4.webp" width="150px" height="150px" alt="">
+                <img src="assets/resize_webp/4.webp" alt="">
             </div>
             <p>British Council Certified</p>
         </div>
         <div class="box box-main">
             <div class="icon">
-                <img src="assets/awards/3.webp" width="150px" height="150px" alt="">
+                <img src="assets/resize_webp/3.webp"  alt="">
             </div>
             <p>1st in India School Rankings</p>
         </div>
@@ -162,6 +162,6 @@
 </button>
 <script>mapboxgl.accessToken = 'pk.eyJ1Ijoic2FoaWwwNiIsImEiOiJja3NlYXAzcGUweXZzMm9vZDF6a213a3YwIn0.2TqRpF9Ot8N3TcY5vKY0ag';const map = new mapboxgl.Map({container: 'map', style: 'mapbox://styles/mapbox/streets-v11', center: [77.4126, 23.2599], zoom: 12});const marker1 = new mapboxgl.Marker().setLngLat([77.4126, 23.2599]).addTo(map);</script>
 <script>var mybutton=document.getElementById("myBtn");function scrollFunction(){20<document.body.scrollTop||20<document.documentElement.scrollTop?mybutton.style.display="block":mybutton.style.display="none"}function topFunction(){document.body.scrollTop=0,document.documentElement.scrollTop=0}window.onscroll=function(){scrollFunction()}</script>
-<script src="js/main.js"></script>
+<script async src="js/main.js"></script>
 </body>
 </html>
