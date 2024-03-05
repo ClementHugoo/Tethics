@@ -47,10 +47,6 @@ b {
 	font-weight: 700
 }
 
-i {
-	font-display: swap
-}
-
 #navbar {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -328,12 +324,6 @@ i {
 	color: #000
 }
 
-.skills {
-	display: flex;
-	justify-content: space-between;
-	font-weight: 700;
-	font-size: 13px
-}
 
 .vision {
 	background-color: #d2d2d2;
