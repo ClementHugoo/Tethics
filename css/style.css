@@ -538,8 +538,6 @@ b {
 	font-family: Poppins
 }
 
-/* responsive code - media queries */
-
 @media screen and (max-width:873px) {
 	#navbar {
 		min-width: 8vh
